@@ -4,5 +4,6 @@ hash = 0
 def key_for_min_value(name_hash)
 name_hash.collect do { |key| }
   if key > hash
-return key
+end
+key
 end
